@@ -9,10 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["yunrui zhang"]
   spec.email         = ["yunrui@unary.io"]
   spec.summary       = "Summary"
-  spec.description   = "Description"
-  spec.homepage      = ""
+  spec.description   = "A simple gem for generating octopress markdown files from PostgreSQL database, useful for migrating your blogging system to octopress from other platforms (e.g Rails)"
+  spec.homepage      = "https://github.com/rwwaskk/to_octopress"
   spec.license       = "MIT"
-
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
