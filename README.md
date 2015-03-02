@@ -18,13 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-	1.require 'to_octopress'
+	require 'to_octopress'
 
-	2.ToOctopress.to_octopress(database_name,table_name,timestamp_column,slug_column,content_column,title_column,path_to_zip_file)
-	example,
+	ToOctopress.to_octopress(database_name,table_name,timestamp_column,slug_column,content_column,title_column,path_to_zip_file)
+	
+	Example,
 	ToOctopress.to_octopress('blogs_database',"blogs","updated_at","slug","content","title",File.dirname(__FILE__))
 
-	3. A file to_octoress.zip will be generated. It contains the list of markdown files compatiable with octopress name conventions and ymal setup
+
+A file to_octoress.zip will be generated. It contains the list of markdown files compatiable with octopress name conventions and ymal setup
 
 ## Contributing
 
