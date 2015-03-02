@@ -22,7 +22,7 @@ Or install it yourself as:
 
 	ToOctopress.to_octopress(database_name,table_name,timestamp_column,slug_column,content_column,title_column,path_to_zip_file)
 	
-Example,
+## Example
 	ToOctopress.to_octopress('blogs_database',"blogs","updated_at","slug","content","title",File.dirname(__FILE__))
 
 
