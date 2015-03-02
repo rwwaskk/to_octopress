@@ -31,7 +31,8 @@ A file named to_octoress.zip will be generated. It contains the list of markdown
 
 ## TODO
 
-Testing
+Write more test cases
+
 Support for other databases
 
 
