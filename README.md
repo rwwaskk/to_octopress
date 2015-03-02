@@ -26,7 +26,7 @@ Or install it yourself as:
 	ToOctopress.to_octopress('blogs_database',"blogs","updated_at","slug","content","title",File.dirname(__FILE__))
 
 
-A file to_octoress.zip will be generated. It contains the list of markdown files compatiable with octopress name conventions and ymal setup
+A file to_octoress.zip will be generated. It contains the list of markdown files compatible with octopress name conventions and yaml setup
 
 ## Contributing
 
