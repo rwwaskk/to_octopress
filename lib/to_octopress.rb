@@ -1,4 +1,4 @@
-require "rails_to_octopress/version"
+require "to_octopress/version"
 require 'pg'
 require 'reverse_markdown'
 

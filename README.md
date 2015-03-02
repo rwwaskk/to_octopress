@@ -1,6 +1,6 @@
 # ToOctopress
 
-A simple gem for generating octopress markdown files from PostgreSQL database (e.g Rails) 
+A simple gem for generating octopress markdown files from PostgreSQL database, useful for migrating your blogging system to octopress from other platforms (e.g Rails) 
 
 ## Installation
 
@@ -26,7 +26,14 @@ Or install it yourself as:
 	ToOctopress.to_octopress('blogs_database',"blogs","updated_at","slug","content","title",File.dirname(__FILE__))
 
 
-A file to_octoress.zip will be generated. It contains the list of markdown files compatible with octopress name conventions and yaml setup
+A file named to_octoress.zip will be generated. It contains the list of markdown files compatible with octopress's name conventions and yaml setup.
+
+
+## TODO
+
+Testing
+Support for other databases
+
 
 ## Contributing
 
